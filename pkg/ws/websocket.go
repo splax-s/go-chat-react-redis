@@ -36,6 +36,7 @@ var upgrader = websocket.Upgrader{
 	// We'll need to check the origin of our connection
 	// this will allow us to make requests from our React
 	// development server to here.
+	//hi
 	// For now, we'll do no checking and just allow any connection
 	CheckOrigin: func(r *http.Request) bool { return true },
 }
